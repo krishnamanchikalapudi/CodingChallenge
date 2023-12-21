@@ -1,6 +1,3 @@
-/**
- * 
- */
 package solutions.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,9 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import solutions.LengthOfLongestSubstring;
 
-/**
- * 
- */
 class LengthOfLongestSubstringTests {
 
 	private final LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
