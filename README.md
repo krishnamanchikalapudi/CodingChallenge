@@ -13,6 +13,8 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 ### Solutions
 | Problem | Source code | Test Cases  | Video | 
 | ------------- |:-------------:|:-------------:| -----:|
+|  [HackerRank:Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem) | [SockMerchant.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/SockMerchant.java) |[SockMerchantTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/unit/SockMerchantTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
+
 | [LeetCode:Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | [BuyTwoChocolates.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/BuyTwoChocolates.java) | [BuyTwoChocolatesTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/BuyTwoChocolatesTests.java) |  [videos](https://youtube.com/@DayOneDev)  | 
 |  [LeetCode:Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [LengthOfLongestSubstring.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/LengthOfLongestSubstring.java) |[LengthOfLongestSubstringTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/LengthOfLongestSubstringTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 |  [LeetCode:Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [KLargestElement.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/KLargestElement.java) |[KLargestElementTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/KLargestElementTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
@@ -23,8 +25,10 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 <!---
 
-| [LeetCode:]()  | [.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/?.java) |[.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/?.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
-| [LeetCode:]()  | [.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/?.java) |[.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/?.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
+| [LeetCode:]()  | [.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/?.java) |[Tests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/?.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
+
+| [HackerRank:]()  | [.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/?.java) |[Tests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/unit/?.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
+
 |  [LeetCode:]() | [.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/?.java) |[.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/unit/?.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 
 --->

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package solutions.hackerrank.interview;
+package solutions.hackerrank;
 
 import java.util.HashMap;
 import java.util.List;
@@ -27,19 +27,24 @@ import java.util.Map;
  */
 public class SockMerchant {
 
-	/*
-	 * Complete the 'sockMerchant' function below.
-	 *
-	 * The function is expected to return an INTEGER.
-	 * The function accepts following parameters:
-	 * 1. INTEGER n
-	 * 2. INTEGER_ARRAY ar
+	/**
+	 * PSEUDO:
+	 * 1. Set the total number of pairs to 0.
+	 * 2. Create an empty map to keep track of the count of each color.
+	 * 3. Go through the input color array: if the color is already in countMap, increase its count by 1.
+	 * 4. Calculate pairs: Loop through the counts of each sock color in countMap. For each count:
+	 * 
+	 * Calculate the number of pairs for that color by dividing the count by 2 and add this to the total pairs.
+	 * Return pairs: Once all counts are checked, return the total pairs.
+	 * 
+	 * @param colors
+	 * @return
 	 */
 
 	public int solution(List<Integer> colors) {
 		// Write your code here
 		int pairs = 0;
-		// count the occuraces
+		// count the occurances
 		Map<Integer, Integer> colorMap = new HashMap();
 		for (int color : colors) {
 			colorMap.put(color, colorMap.getOrDefault(color, 0) + 1);

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package solutions.hackerrank.interview.unit;
+package solutions.hackerrank.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.interview.SockMerchant;
+import solutions.hackerrank.SockMerchant;
 
 public class SockMerchantTests {
 	private final SockMerchant test = new SockMerchant();
