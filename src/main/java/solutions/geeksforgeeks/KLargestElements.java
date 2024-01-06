@@ -1,4 +1,4 @@
-package solutions;
+package solutions.geeksforgeeks;
 
 import java.util.Arrays;
 

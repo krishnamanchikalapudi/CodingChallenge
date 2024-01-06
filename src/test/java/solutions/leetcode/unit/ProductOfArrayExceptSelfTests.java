@@ -1,10 +1,10 @@
-package solutions.unit;
+package solutions.leetcode.unit;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.ProductOfArrayExceptSelf;
+import solutions.leetcode.ProductOfArrayExceptSelf;
 
 class ProductOfArrayExceptSelfTests {
 	private ProductOfArrayExceptSelf test = new ProductOfArrayExceptSelf();

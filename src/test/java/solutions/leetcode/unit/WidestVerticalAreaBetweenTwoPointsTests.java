@@ -1,10 +1,10 @@
-package solutions.unit;
+package solutions.leetcode.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.WidestVerticalAreaBetweenTwoPoints;
+import solutions.leetcode.WidestVerticalAreaBetweenTwoPoints;
 
 class WidestVerticalAreaBetweenTwoPointsTests {
 	private final WidestVerticalAreaBetweenTwoPoints tests = new WidestVerticalAreaBetweenTwoPoints();

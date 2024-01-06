@@ -1,4 +1,4 @@
-package solutions;
+package solutions.geeksforgeeks;
 
 /**
  * Problem: Given an array of N integers arr[] where each element represents the maximum length of the jump that can be

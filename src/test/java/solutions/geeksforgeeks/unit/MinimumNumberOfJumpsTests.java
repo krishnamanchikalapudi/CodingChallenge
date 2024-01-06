@@ -1,10 +1,10 @@
-package solutions.unit;
+package solutions.geeksforgeeks.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.MinimumNumberOfJumps;
+import solutions.geeksforgeeks.MinimumNumberOfJumps;
 
 class MinimumNumberOfJumpsTests {
 	private final MinimumNumberOfJumps tests = new MinimumNumberOfJumps();

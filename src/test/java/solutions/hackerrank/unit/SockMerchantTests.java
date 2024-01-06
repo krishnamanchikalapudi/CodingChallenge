@@ -24,13 +24,19 @@ public class SockMerchantTests {
 	@Test
 	void test2() {
 		List<Integer> nums = Arrays.asList(10, 20, 20, 10, 10, 30, 50, 10, 20);
-		assertEquals(3, test.solution(nums));
+		int expect = 3;
+		int actual = test.solution(nums);
+		System.out.println("Actual: " + actual + "  Expected: " + expect);
+		assertEquals(expect, actual);
 	}
 
 	@Test
 	void test3() {
 		List<Integer> nums = Arrays.asList(10, 20, 20, 50, 30, 30, 50, 70, 10, 20, 70);
-		assertEquals(5, test.solution(nums));
+		int expect = 5;
+		int actual = test.solution(nums);
+		System.out.println("Actual: " + actual + "  Expected: " + expect);
+		assertEquals(expect, actual);
 	}
 
 	@Test

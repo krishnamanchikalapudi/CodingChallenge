@@ -1,10 +1,10 @@
-package solutions.unit;
+package solutions.geeksforgeeks.unit;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.KLargestElements;
+import solutions.geeksforgeeks.KLargestElements;
 
 class KLargestElementsTests {
 	private final KLargestElements test = new KLargestElements();

@@ -1,4 +1,4 @@
-package solutions.unit;
+package solutions.leetcode.unit;
 
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.FindTasksOrderOfDependencies;
+import solutions.leetcode.FindTasksOrderOfDependencies;
 
 class FindTasksOrderOfDependenciesTests {
 	private final FindTasksOrderOfDependencies test = new FindTasksOrderOfDependencies();
