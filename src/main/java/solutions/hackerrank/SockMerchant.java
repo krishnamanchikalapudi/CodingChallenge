@@ -8,7 +8,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Problem at https://www.hackerrank.com/challenges/sock-merchant/problem
+ * Problem: https://www.hackerrank.com/challenges/sock-merchant/
+ * 
+ * There is a large pile of socks that must be paired by color. Given an array of integers representing the color of
+ * each sock, determine how many pairs of socks with matching colors there are.
  * 
  * Example 1:
  * Input: nums = [1, 2, 1, 2, 1, 3, 2]
@@ -28,19 +31,11 @@ import java.util.Map;
 public class SockMerchant {
 
 	/**
-	 * PSEUDO:
-	 * 1. Set the total number of pairs to 0.
-	 * 2. Create an empty map to keep track of the count of each color.
-	 * 3. Go through the input color array: if the color is already in countMap, increase its count by 1.
-	 * 4. Calculate pairs: Loop through the counts of each sock color in countMap. For each count:
-	 * 
-	 * Calculate the number of pairs for that color by dividing the count by 2 and add this to the total pairs.
-	 * Return pairs: Once all counts are checked, return the total pairs.
+	 * PSEUDO CODE video:
 	 * 
 	 * @param colors
 	 * @return
 	 */
-
 	public int solution(List<Integer> colors) {
 		// Write your code here
 		int pairs = 0;
