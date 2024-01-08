@@ -10,7 +10,7 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 
 ## Problem and Solutions
-- [Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
+- [Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
 
 ### Other problems 
 | Problem | Source code | Test Cases  | Video | 
