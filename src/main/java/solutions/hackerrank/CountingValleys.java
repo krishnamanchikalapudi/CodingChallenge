@@ -25,6 +25,13 @@ package solutions.hackerrank;
  * 
  */
 public class CountingValleys {
+	/**
+	 * PSEUDO CODE video:
+	 * 
+	 * @param steps
+	 * @param path
+	 * @return
+	 */
 	public int solution(int steps, String path) {
 		int seaLevel = 0;
 		int valleys = 0;
