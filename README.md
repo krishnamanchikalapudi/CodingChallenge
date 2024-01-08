@@ -12,6 +12,7 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 ## Problem and Solutions
 - [Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
 
+<!--
 ### Other problems 
 | Problem | Source code | Test Cases  | Video | 
 | ------------- |:-------------:|:-------------:| -----:|
@@ -29,6 +30,7 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 | [LeetCode:Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)  | [WidestVerticalAreaBetweenTwoPoints.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/leetcode/WidestVerticalAreaBetweenTwoPoints.java) |[WidestVerticalAreaBetweenTwoPointsTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/leetcode/unit/WidestVerticalAreaBetweenTwoPointsTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 | [GeeksForGeeks:k largest elements](https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1?) | [KLargestElements.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/geeksforgeeks/KLargestElements.java) |[.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/geeksforgeeks/unit/KLargestElementsTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 | [GeeksForGeeks:Find the ordering of task from given dependencies](https://www.geeksforgeeks.org/find-the-ordering-of-tasks-from-given-dependencies/)  | [FindTasksOrderOfDependencies.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/geeksforgeeks/FindTasksOrderOfDependencies.java) |[FindTasksOrderOfDependenciesTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/geeksforgeeks/unit/FindTasksOrderOfDependenciesTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
+--->
 
 <!---
 
@@ -40,5 +42,6 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 --->
 
-### My Profiles
+## My Profiles
+- [HackerRank](https://HackerRank.com/kmanchikalapudi/)
 - [LeetCode](https://leetcode.com/krishnamanchikalapudi/)
