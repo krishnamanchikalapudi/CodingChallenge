@@ -1,4 +1,4 @@
-package solutions.hackerrank;
+package solutions.hackerrank.interview.warmup;
 
 import java.util.List;
 

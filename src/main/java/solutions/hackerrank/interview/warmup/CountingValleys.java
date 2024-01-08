@@ -1,4 +1,4 @@
-package solutions.hackerrank;
+package solutions.hackerrank.interview.warmup;
 
 /**
  * Problem: https://www.hackerrank.com/challenges/counting-valleys/

@@ -1,4 +1,4 @@
-package solutions.hackerrank.unit;
+package solutions.hackerrank.interview.warmup.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.JumpingOnTheClouds;
+import solutions.hackerrank.interview.warmup.JumpingOnTheClouds;
 
 /**
  * 

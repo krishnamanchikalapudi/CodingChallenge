@@ -1,10 +1,10 @@
-package solutions.hackerrank.unit;
+package solutions.hackerrank.interview.warmup.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.RepeatedString;
+import solutions.hackerrank.interview.warmup.RepeatedString;
 
 /**
  * 
