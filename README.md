@@ -10,13 +10,14 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 
 ## Problem and Solutions
-- [Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
+- [HackerRank: Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
+- [HackerRank: Interview Kit >> Arrays](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/arrays/README.md)
+
 
 <!--
 ### Other problems 
 | Problem | Source code | Test Cases  | Video | 
 | ------------- |:-------------:|:-------------:| -----:|
-
 | [HackerRank:Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/)  | [DiagonalDifference.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/DiagonalDifference.java) |[DiagonalDifferenceTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/unit/DiagonalDifferenceTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 | [HackerRank:Plus Minus](https://www.hackerrank.com/challenges/plus-minus/)  | [PlusMinus.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/PlusMinus.java) |[PlusMinusTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/unit/PlusMinusTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
 | [HackerRank:Mini Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/)  | [MiniMaxSum.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/MiniMaxSum.java) |[MiniMaxSumTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/unit/MiniMaxSumTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
