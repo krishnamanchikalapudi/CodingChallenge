@@ -16,7 +16,11 @@ package solutions.hackerrank;
  * ####
  */
 public class StairCase {
-
+	/**
+	 * PSEUDO CODE video:
+	 * 
+	 * @param n
+	 */
 	public void solution(int n) {
 
 		for (int i = 0; i < n; i++) {
