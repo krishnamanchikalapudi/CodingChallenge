@@ -5,7 +5,7 @@
 ## HackerRank: Warm-up Challenges
 - [https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges](https://www.hackerrank.com/interview/interview-preparation-kit/warmup/challenges)
 
-| S.No | Problem | Source code | Test Cases  | Video | 
+| S.No | Warm-up Problem | Source code | Test Cases  | Video | 
 | ------------- |------------- |-------------|-------------| -----:|
 | 1. | [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/) | [SockMerchant.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/interview/warmup/SockMerchant.java) | [SockMerchantTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/interview/warmup/unit/SockMerchantTests.java)  |  [videos](https://youtube.com/@DayOneDev)| 
 | 2. | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/)  | [CountingValleys.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/main/java/solutions/hackerrank/interview/warmup/CountingValleys.java) |[CountingValleysTests.java](https://github.com/krishnamanchikalapudi/CodingChallenge.java/blob/develop/src/test/java/solutions/hackerrank/interview/warmup/unit/CountingValleysTests.java)  |  [videos](https://youtube.com/@DayOneDev)  | 
