@@ -1,6 +1,3 @@
-/**
- * 
- */
 package solutions.hackerrank.interview.warmup.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,7 +8,9 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 import solutions.hackerrank.interview.warmup.SockMerchant;
-
+/**
+ * PSEUDO CODE video: https://youtu.be/QbqEhxC0mys
+ */
 public class SockMerchantTests {
 	private final SockMerchant test = new SockMerchant();
 

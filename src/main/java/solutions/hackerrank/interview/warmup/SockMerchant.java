@@ -31,7 +31,7 @@ import java.util.Map;
 public class SockMerchant {
 
 	/**
-	 * PSEUDO CODE video:
+	 * PSEUDO CODE video: https://youtu.be/QbqEhxC0mys
 	 * 
 	 * @param colors
 	 * @return
