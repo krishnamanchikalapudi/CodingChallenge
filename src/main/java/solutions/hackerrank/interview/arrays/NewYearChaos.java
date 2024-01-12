@@ -32,7 +32,11 @@ import java.util.List;
  * Too chaotic
  */
 public class NewYearChaos {
-
+	/**
+	 * PSEUDO CODE video:
+	 * 
+	 * @param q
+	 */
 	public void solution(List<Integer> q) {
 		int bribes = 0;
 		for (int i = q.size() - 1; i >= 0; i--) {
