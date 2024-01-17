@@ -10,8 +10,14 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 
 ## Problem and Solutions
+### LeetCode
+- [LeetCode: Top Interview 150](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/leetcode/interview/top150q/README.md)
+
+### HackerRank
 - [HackerRank: Interview Kit >> Warm-up Challenges](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/warmup/README.md)
 - [HackerRank: Interview Kit >> Arrays](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/arrays/README.md)
+- [HackerRank: Interview Kit >> Dictionaries and Hashmaps](https://github.com/krishnamanchikalapudi/CodingChallenge.java/tree/develop/src/main/java/solutions/hackerrank/interview/dictionaries/README.md)
+
 
 
 <!--

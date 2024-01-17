@@ -43,5 +43,22 @@ class HourGlassSumTests {
 		System.out.println("Actual: " + actual + "  Expected: " + expect);
 		assertEquals(expect, actual);
 	}
-
+	@Test
+	void test4() {
+		int expect = 7;
+		int actual = tests.solution(Arrays.asList(Arrays.asList(1, 1, 1,0,0,0), Arrays.asList(0, 1, 0, 0,0,0),
+				Arrays.asList(1, 1, 1,0,0,0), Arrays.asList(0, 0, 0, 0,0,0), Arrays.asList(0, 0, 0, 0,0,0),
+				Arrays.asList(0, 0, 0, 0,0,0)));
+		System.out.println("Actual: " + actual + "  Expected: " + expect);
+		assertEquals(expect, actual);
+	}
+	@Test
+	void test5() {
+		int expect = 19;
+		int actual = tests.solution(Arrays.asList(Arrays.asList(1, 1, 1,0,0,0), Arrays.asList(0, 1, 0, 0,0,0),
+				Arrays.asList(1, 1, 1,0,0,0), Arrays.asList(0, 0, 2, 4,4,0), Arrays.asList(0, 0, 0, 2,0,0),
+				Arrays.asList(0, 0, 1, 2,4,0)));
+		System.out.println("Actual: " + actual + "  Expected: " + expect);
+		assertEquals(expect, actual);
+	}
 }
