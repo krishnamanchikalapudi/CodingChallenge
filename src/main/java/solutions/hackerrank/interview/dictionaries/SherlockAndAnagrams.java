@@ -1,4 +1,9 @@
 package solutions.hackerrank.interview.dictionaries;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Problem: https://www.hackerrank.com/challenges/sherlock-and-anagrams/
  * 
@@ -11,8 +16,12 @@ package solutions.hackerrank.interview.dictionaries;
  * 
  * Example 1:
  * Input: s=abba
- * Out: 4
+ * Output: 4
  * Explanation: The list of all anagrammatic pairs is [a,a],[ab,ba],[b,b] and [abb,bba] at positions [[0],[3]], [[0,1],[2,3]],[[1],[2]] and [[0,1,2],[1,2,3]]  respectively.
+ * 
+ * Example 2:
+ * Input: s=cdcd
+ * Output: 5
  */
 public class SherlockAndAnagrams {
     /**
@@ -22,7 +31,30 @@ public class SherlockAndAnagrams {
      * @return
      */
     public int solution(String s) {
+        int count = 0;
+        int n = s.length();
+        // Create a map to store the frequency of each substring
+        Map<String, Integer> freqMap = new HashMap<>();
 
-        return 0;
+        // Iterate over all substrings
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                // Get the substring and sort its characters
+                String subS = s.substring(i, j);
+                char[] charArray = subS.toCharArray();
+                Arrays.sort(charArray);
+                String sortedSubS = new String(charArray);
+
+                // Update the frequency map
+                freqMap.put(sortedSubS, freqMap.getOrDefault(sortedSubS, 0) + 1);
+            } // for: j
+        } // for: i
+
+        // Count the number of anagrammatic pairs
+        for (int frequency : freqMap.values()) {
+            count += frequency * (frequency - 1) / 2;
+        } // for: frequency
+
+        return count;
     }
 }

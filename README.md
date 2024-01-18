@@ -8,6 +8,10 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 - [Project Euler](https://projecteuler.net/recent)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore?)
 
+## Tips:
+- Algorithm: Methond for solving a problem.
+- Data Structure: Method to store information.
+- Algorithm + Data Structure = Program
 
 ## Problem and Solutions
 ### LeetCode
@@ -51,4 +55,7 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 
 ## My Profiles
 - [HackerRank](https://HackerRank.com/kmanchikalapudi/)
-- [LeetCode](https://leetcode.com/krishnamanchikalapudi/)
+- [LeetCode](https://leetcode.com/kmanchikalapudi/)
+- [Code Signal](https://app.codesignal.com/profile/kmanchikalapudi)
+- [LinkedIn](https://linkedin.com/in/krishnamanchikalapudi/)
+- [YouTube](https://youtube.com/@DayOneDev)
