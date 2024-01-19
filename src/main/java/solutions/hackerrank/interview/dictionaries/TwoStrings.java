@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Problem: 
+ * Problem: https://www.hackerrank.com/challenges/two-strings/
  * 
  * Given two strings, determine if they share a common substring. A substring may be as small as one character.
  * 

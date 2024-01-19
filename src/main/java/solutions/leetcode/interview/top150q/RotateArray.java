@@ -18,6 +18,14 @@ package solutions.leetcode.interview.top150q;
  * Explanation: 
  * rotate 1 steps to the right: [99,-1,-100,3]
  * rotate 2 steps to the right: [3,99,-1,-100]
+ * 
+ * Example 3:
+ * Input: nums=[1,2], k=3
+ * output: [2,1]
+ *Explanation:
+ * rotate 1 steps to the right: [2,1]
+ * rotate 2 steps to the right: [1,2]
+ * rotate 3 steps to the right: [2,1]
  */
 public class RotateArray {
     /**
@@ -28,13 +36,29 @@ public class RotateArray {
      */
     public int[] solution(int[] nums, int d) {
         int n=nums.length;
-        for (int i = n; i > d; i--) {
-            int j, temp = nums[0];
-            for (j = 0; j < n - 1; j++) { 
-                nums[j] = nums[j + 1];
-            } // for: j
-            nums[j] = temp;
+        int k = (d % n);
+
+        // Reverse the entire array
+        for (int i=0; i< n/2; i++) {
+            int temp = nums[i];
+            nums[i] = nums[n-i-1];
+            nums[n-i-1] = temp;
         } // for: i
+
+        // Reverse the 1st portion 'k' elements
+        for (int j=0; j<k/2; j++) {
+            int temp = nums[j];
+            nums[j] = nums[k-j-1];
+            nums[k-j-1] = temp;
+        } // for: j
+
+        // Reverse the remaining portion 'n-k' elements
+        for (int p=k; p< (n+k)/2; p++) {
+            int temp = nums[p];
+            nums[p] = nums[n-p+k-1];
+            nums[n-p+k-1] = temp;
+        } // for: p
+        
         return nums;
     }
 }
