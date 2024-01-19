@@ -1,14 +1,11 @@
-package solutions.hackerrank.unit;
+package solutions.hackerrank.prepkit1week.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.TimeConversion;
+import solutions.hackerrank.prepkit1week.TimeConversion;
 
-/**
- * 
- */
 class TimeConversionTests {
 	private final TimeConversion test = new TimeConversion();
 

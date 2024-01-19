@@ -1,7 +1,4 @@
-/**
- * 
- */
-package solutions.hackerrank.unit;
+package solutions.hackerrank.prepkit1week.unit;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -10,11 +7,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.MiniMaxSum;
+import solutions.hackerrank.prepkit1week.MiniMaxSum;
 
-/**
- * 
- */
 class MiniMaxSumTests {
 	private MiniMaxSum test = new MiniMaxSum();
 
