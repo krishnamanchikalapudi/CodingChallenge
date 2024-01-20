@@ -1,7 +1,4 @@
-/**
- * 
- */
-package solutions.hackerrank.unit;
+package solutions.hackerrank.prepkit1week.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,11 +7,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.DiagonalDifference;
+import solutions.hackerrank.prepkit1week.DiagonalDifference;
 
-/**
- * 
- */
 class DiagonalDifferenceTests {
 	private final DiagonalDifference test = new DiagonalDifference();
 

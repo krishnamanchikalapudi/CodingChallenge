@@ -17,6 +17,12 @@ import java.util.List;
  * Output: Median is 3
  */
 public class FindTheMedian {
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param arr
+     * @return
+     */
     public int solution(List<Integer> arr) {
         int k = 0;
         arr.sort(Comparator.naturalOrder());

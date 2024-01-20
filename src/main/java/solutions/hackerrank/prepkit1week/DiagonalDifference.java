@@ -1,12 +1,9 @@
-/**
- * 
- */
-package solutions.hackerrank;
+package solutions.hackerrank.prepkit1week;
 
 import java.util.List;
 
 /**
- * Problem: https://www.hackerrank.com/challenges/diagonal-difference/
+ * Problem: https://www.hackerrank.com/challenges/one-week-preparation-kit-diagonal-difference/
  * 
  * Given a square matrix, calculate the absolute difference between the sums of its diagonals.
  * 

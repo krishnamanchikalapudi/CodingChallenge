@@ -28,8 +28,14 @@ import java.util.List;
  * one 0 = 1/6 = 0.16667
  */
 public class PlusMinus {
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param arr
+     * @return
+     */
     public List<String> solution(List<Integer> arr) {
-        List<String> rtn = new ArrayList();
+        List<String> rtn = new ArrayList<String>();
         double pCount = 0, nCount = 0, zCount = 0;
         int n = arr.size();
         for (int num : arr) {
