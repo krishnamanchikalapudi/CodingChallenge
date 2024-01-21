@@ -21,10 +21,17 @@ public class LonelyInteger {
      * @param a
      * @return
      */
-    public int solution(List<Integer> a) {
+    public int solution(List<Integer> nums) {
+        int k=0;
+        for (int num: nums) {
+            k =  (k ^ num);  // ^ bitwise exclusive OR: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+        } // for num
+        return k;
+    }
+    public int solution1(List<Integer> nums) {
         Map<Integer, Integer> aMap = new HashMap<>();
-        for (int a1: a)
-            aMap.put(a1, aMap.getOrDefault(a1, 0)+1);
+        for (int num: nums)
+            aMap.put(num, aMap.getOrDefault(num, 0)+1);
 
         int k=0;
         for(Map.Entry<Integer,Integer> eSet: aMap.entrySet()) {

@@ -32,12 +32,12 @@ public class MiniMaxSum {
 	 */
 	public long[] solution(List<Integer> arr) {
 		long minSum = 0, maxSum = 0;
-
+		int n = arr.size();
 		arr.sort(Comparator.naturalOrder());
-		int arrSize = arr.size();
-		for (int i = 0; i < (arrSize - 1); i++) {
+		
+		for (int i = 0; i < (n - 1); i++) {
 			minSum += arr.get(i);
-			maxSum += arr.get(arrSize - 1 - i);
+			maxSum += arr.get(n - 1 - i);
 		} // for
 
 		return new long[] { (long) minSum, (long) maxSum };
