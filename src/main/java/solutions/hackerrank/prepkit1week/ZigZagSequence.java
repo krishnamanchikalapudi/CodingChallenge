@@ -23,6 +23,7 @@ import java.util.Arrays;
  */
 public class ZigZagSequence {
     /**
+     * PSEUDO CODE video:
      * 
      * @param a
      */

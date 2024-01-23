@@ -36,7 +36,12 @@ import java.util.List;
  * u v w x y
  */
 public class GridChallenge {
-
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param grid
+     * @return
+     */
     public String solution(List<String> grid) {
         List<String[]> tempGrid = new ArrayList<>();
         for (String row : grid) {

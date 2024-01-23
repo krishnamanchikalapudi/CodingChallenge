@@ -27,6 +27,13 @@ import java.util.Map;
  * 
  */
 public class CaesarCipher {
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param s
+     * @param k
+     * @return
+     */
     public String solution(String s, int k) {
         StringBuffer cipher = new StringBuffer();
         String alphabets = "abcdefghijklmnopqrstuvwxyz";
