@@ -1,4 +1,4 @@
-package solutions.hackerrank.interview.arrays.unit;
+package solutions.hackerrank.prepkit1week.unit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,16 +7,12 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.hackerrank.interview.arrays.NewYearChaos;
+import solutions.hackerrank.prepkit1week.MinimumBribes;
 
-/**
- * 
- * Problem:
- */
-class NewYearChaosTests {
-	private final NewYearChaos tests = new NewYearChaos();
+public class MinimumBribesTests {
+    private final MinimumBribes tests = new MinimumBribes();
 
-	@Test
+   @Test
 	void test1() {
 		List<Integer> q = Arrays.asList(2, 1, 5, 3, 4);
         String actual = tests.solution(q);
@@ -58,5 +54,4 @@ class NewYearChaosTests {
         System.out.println("Actual: "+ actual +"; Expect: "+ expect);
         assertEquals(expect, actual);
 	}
-
 }

@@ -15,7 +15,7 @@ package solutions.hackerrank.prepkit1week;
  * There are 2 towers, each 6 units tall. Player 1 has a choice of two moves:
  * - remove 3 pieces from a tower to leave 3 as 6 modulo 3 =0 
  * - remove 5 pieces to leave 1 
- * Let Player  remove . Now the towers are  and  units tall.
+ * Let Player 1 remove 3. Now the towers are 3 and 6 units tall.
  * Player 2 matches the move. Now the towers are both 3 units tall.
  * Now Player 1 has only one move.
  * Player 1 removes 2 pieces leaving 1. Towers are 1 and 2 units tall.

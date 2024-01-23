@@ -37,18 +37,17 @@ public class NewYearChaos {
 	 * 
 	 * @param q
 	 */
-	public void solution(List<Integer> q) {
+	public String solution(List<Integer> q) {
 		int bribes = 0;
 		for (int i = q.size() - 1; i >= 0; i--) {
 			if (q.get(i) - (i + 1) > 2) {
-				System.out.println("Too chaotic");
-				return;
+				return ("Too chaotic");
 			} // if
 			for (int j = Math.max(0, q.get(i) - 2); j < i; j++) {
 				if (q.get(j) > q.get(i))
 					bribes++;
 			} // for: j
 		} // for: i
-		System.out.println(bribes);
+		return (""+bribes);
 	}
 }
