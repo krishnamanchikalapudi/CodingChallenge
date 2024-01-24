@@ -15,7 +15,12 @@ import java.util.List;
  * Person 4 had to bribe 3 people to get to the current position. Print 'Too chaotic'.
  */
 public class MinimumBribes {
-    
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param q
+     * @return
+     */
      public String solution(List<Integer> q) {
         String str = "Too chaotic";
         int bribes = 0;

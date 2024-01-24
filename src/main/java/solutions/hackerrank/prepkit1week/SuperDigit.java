@@ -45,9 +45,9 @@ public class SuperDigit {
         // Multiply the super digit by k
         sDigit *= k;
         // Calculate the super digit of the multiplied result recursively
-        return calculateSuperDigit(sDigit);
+        return digitSum(sDigit);
     }
-    private int calculateSuperDigit(long num) {
+    private int digitSum(long num) {
         // If num has only one digit, return that digit
         if (num < 10) {
             return (int) num;
@@ -60,36 +60,6 @@ public class SuperDigit {
         } // while
 
         // Recursively call calculateSuperDigit on the sum
-        return calculateSuperDigit(sum);
-    }
-
-    private long digitSum(String s) {
-        long sDigit = 0;
-        for (char c : s.toCharArray()) {
-            try {
-                sDigit += Integer.parseInt("" + c);
-            } catch (NumberFormatException nfe) {
-            }
-        } //
-        if (sDigit > 9)
-            return digitSum("" + sDigit);
-        return sDigit;
-    }
-
-    public int solution1(String n, int k) {
-        System.out.println("k: " + k + "; str: " + n);
-        StringBuffer sb = new StringBuffer(n);
-        if (k > 1) {
-            for (int i = 0; i < k - 1; i++) {
-                sb.append(n);
-            } // for
-        } // if
-        n = sb.toString();
-        System.out.println("k: " + k + "; updated str: " + n);
-
-        int sDigit = digitSum(n);
-        System.out.println("sDigit: " + sDigit);
-
-        return sDigit;
+        return digitSum(sum);
     }
 }
