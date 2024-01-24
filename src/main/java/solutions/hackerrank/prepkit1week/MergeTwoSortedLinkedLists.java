@@ -2,6 +2,10 @@ package solutions.hackerrank.prepkit1week;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Problem: https://www.hackerrank.com/challenges/one-week-preparation-kit-merge-two-sorted-linked-lists/
@@ -42,9 +46,25 @@ public class MergeTwoSortedLinkedLists {
      * @return
      */
     public SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
+        
+        List<Integer> list = new ArrayList<>();
+        while (head1!=null) {
+            list.add(head1.data);
+            head1=head1.next;
+        } // while: head1
+        while (head2!= null) {
+            list.add(head2.data);
+            head2=head2.next;
+        } // while: head2
+        list.sort(Comparator.naturalOrder());
+        System.out.println("Sorted List: "+ Arrays.toString(list.toArray()));
 
-
-        return null;
+        SinglyLinkedList sllist = new SinglyLinkedList();
+        for (int data: list) {
+            // SinglyLinkedListNode n=new SinglyLinkedListNode(data);
+            sllist.insertNode(data);
+        } // for: data
+        return sllist.head;
     }
 
     /*
