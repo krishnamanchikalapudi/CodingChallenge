@@ -39,3 +39,7 @@ The coding challenge platforms serve as my preferred resources for enhancing my 
 - [Code Signal](https://app.codesignal.com/profile/kmanchikalapudi)
 - [LinkedIn](https://linkedin.com/in/krishnamanchikalapudi/)
 - [YouTube](https://youtube.com/@DayOneDev)
+
+### Design and Analysis of Algorithms
+- [MIT Course](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/video_galleries/lecture-videos/)
+- [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/references/)
