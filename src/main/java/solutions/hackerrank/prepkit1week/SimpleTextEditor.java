@@ -31,7 +31,13 @@ import java.util.Stack;
  * d
  */
 public class SimpleTextEditor {
-    
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param s
+     * @param ops
+     * @return
+     */
     public String solution(String s, String[] ops) {
         String result="";
 
