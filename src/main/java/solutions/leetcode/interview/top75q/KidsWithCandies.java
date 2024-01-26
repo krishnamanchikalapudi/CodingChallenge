@@ -34,7 +34,13 @@ import java.util.List;
  * Output: [true,false,true]
  */
 public class KidsWithCandies {
-
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param candies
+     * @param extraCandies
+     * @return
+     */
     public List<Boolean> solution(int[] candies, int extraCandies) {
         // Find out the greatest number of candies among all the kids.
         int maxCandies = 0;

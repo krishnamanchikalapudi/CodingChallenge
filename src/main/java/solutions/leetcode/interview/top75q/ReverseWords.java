@@ -25,6 +25,12 @@ package solutions.leetcode.interview.top75q;
  * Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
  */
 public class ReverseWords {
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param s
+     * @return
+     */
     public String solution(String s) {
         String result = "";
         System.out.println("Input: " + s);

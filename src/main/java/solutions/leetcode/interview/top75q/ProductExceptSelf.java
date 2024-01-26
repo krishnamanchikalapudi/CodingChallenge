@@ -22,7 +22,12 @@ import java.util.Arrays;
  * Output: [0,0,9,0,0]
  */
 public class ProductExceptSelf {
-
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param nums
+     * @return
+     */
     public int[] solution(int[] nums) {
         System.out.println("nums: " + Arrays.toString(nums));
         int n = nums.length;

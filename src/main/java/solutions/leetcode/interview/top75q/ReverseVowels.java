@@ -21,6 +21,12 @@ import java.util.List;
  * Output: "leotcede"
  */
 public class ReverseVowels {
+    /**
+     * PSEUDO CODE video:
+     * 
+     * @param s
+     * @return
+     */
     public String solution(String s) {
         List<Character> vowelsDict = Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
 
